@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title> PORTFOLIO - Personal Portfolio Website </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+</head>
+
+<body>
+
+    <!-- Navbar  Section Start -->
+    <header>
+        <a href="#" class="logo">HELLO<span>FRIENDS</span>.</a>
+        <div class="bx bx-menu" id="menu-icon"></div>
+        <ul class="navbar">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <div class="bx bx-moon" id="darkmode"></div>
+        </ul>
+    </header>
+    <!-- Navbar Section End -->
+
+    <!-- Home Section Start -->
+    <section class="home" id="home">
+        <div class="social">
+            <a href="https://github.com/AnjaliNamdev1"><i class='bx bxl-github'></i></a>
+            <a href="#"><i class='bx bxl-instagram'></i></a>
+            <a href="https://www.facebook.com/anjali.namdev.58958"><i class='bx bxl-facebook'></i></a>
+            <a href="https://www.linkedin.com/in/anjali-namdev-01a950253/ " target="_blank"><i class='bx bxl-linkedin' ></i></a>
+        </div>
+
+        <div class="home-img">
+            <img src="G:\My Porfolio\images\Anjali White.PNG" alt="" width="300" height="500">
+        </div>
+
+        <div class="home-text">
+            <span>Hello, I'm</span>
+            <h1>Anjali Namdev</h1>
+            <h2>Frontend Developer</h2>
+            <p>Looking to deliver excellent web development skills in Web services, <br>And as beginner exploring myself more into the Web World. </p>
+            <a href="Finalized Resume Anjali Namdev.pdf" class="btn">Download CV</a>
+        </div>
+    </section>
+    <!-- Home Section End -->
+
+    <!-- About Section Start -->
+    <section class="about" id="about">
+        <div class="heading">
+            <h2>About Me</h2>
+            <span>Introduction</span>
+        </div>
+
+        <div class="about-container">
+            <div class="about-img">
+                <img src="G:\My Porfolio\images\aboutme.png" alt="">
+            </div>
+            <div class="about-text">
+                <p>Pursuing 4th Year of B.Tech in Computer Science and Engineering branch from Sushila DEvi Bansal College of Engineering, Indore. Experienced in HTML, CSS, JAVA, MySQL & C Building my skills towards Web Development & looking for oportunities
+                    in Web World and IT zone.</p>
+                <div class="information">
+                    <div class="info-box">
+                        <i class='bx bxs-user'></i>
+                        <span>Name-Anjali Namdev</span>
+                    </div>
+
+                    <div class="info-box">
+                        <i class='bx bxs-phone'></i>
+                        <span>91+7247664695</span>
+                    </div>
+
+                    <div class="info-box">
+                        <i class='bx bxs-envelope'></i>
+                        <span>anjalinamdev695@gmail.com</span>
+                    </div>
+                </div>
+                <a href="Finalized Resume Anjali Namdev.pdf" class="btn">Download Cv</a>
+            </div>
+        </div>
+    </section>
+    <!-- About Section End -->
+
+    <!-- Skills Section Start -->
+    <section class="skills" id="skills">
+        <div class="heading">
+            <h2>Skills</h2>
+            <span>My Skills</span>
+        </div>
+
+        <div class="skills-container">
+            <div class="home-img">
+                <img src="G:\My Porfolio\images\skill.JPG" alt="">
+            </div>
+            <div class="bars">
+
+                <div class="bars-box">
+                    <h3>HTML</h3>
+                    <span>80%</span>
+                    <div class="light-bar"></div>
+                    <div class="percent-bar html-bar"></div>
+                </div>
+
+                <div class="bars-box">
+                    <h3>CSS</h3>
+                    <span>75%</span>
+                    <div class="light-bar"></div>
+                    <div class="percent-bar css-bar"></div>
+                </div>
+
+                <div class="bars-box">
+                    <h3>Java</h3>
+                    <span>90%</span>
+                    <div class="light-bar"></div>
+                    <div class="percent-bar js-bar"></div>
+                </div>
+
+                <div class="bars-box">
+                    <h3>MYSQL</h3>
+                    <span>80%</span>
+                    <div class="light-bar"></div>
+                    <div class="percent-bar react-bar"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Skills Section End -->
+
+    <!-- Services Section Start -->
+    <section class="services" id="services">
+        <div class="heading">
+            <h2>Services</h2>
+            <span>Our Services</span>
+        </div>
+        <div class="services-content">
+
+            <div class="services-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>Web Development</h3>
+                <a href="#">Learn More</a>
+            </div>
+
+            <div class="services-box">
+                <i class='bx bx-server'></i>
+                <h3>Backend Development</h3>
+                <a href="#">Learn More</a>
+            </div>
+            <div class="services-box">
+                <i class='bx bx-brush'></i>
+                <h3>UI/UX Design</h3>
+                <a href="#">Learn More</a>
+            </div>
+
+            <div class="services-box">
+                <i class='bx bxl-android'></i>
+                <h3>App Development</h3>
+                <a href="#">Learn More</a>
+            </div>
+        </div>
+    </section>
+    <!-- Services Section End -->
+
+    <!-- Contact Section Start -->
+    <section class="contact" id="contact">
+        <div class="heading">
+            <h2>Contact</h2>
+            <span>Connect With Me</span>
+        </div>
+        <div class="contact-form">
+            <form onsubmit="sendEmail()">
+                <input type="text" id="name" placeholder="Your Name">
+                <input type="email" name="" id="email" placeholder="Your Email">
+                <input type="text" name="" id="phone" placeholder="Your Contact Number">
+                <textarea name="" id="message" rows="3" placeholder="How can I help you?"></textarea>
+                <!-- <input type="button" value="Send" class="contact-button"> -->
+                <!-- <button id="btn">Send</button> -->
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </section>
+    <!-- Contact Section End -->
+
+    <div class="footer">
+        <h2>Follow Me</h2>
+        <div class="footer-social">
+            <a href="#"><i class='bx bxl-instagram'></i></a>
+            <a href="https://www.facebook.com/anjali.namdev.58958"><i class='bx bxl-facebook'></i></a>
+            <a href="https://www.linkedin.com/in/anjali-namdev-01a950253/ " target="_blank"><i class='bx bxl-linkedin' ></i></a>
+            <a href="https://github.com/AnjaliNamdev1"><i class='bx bxl-github'></i></a>
+        </div>
+    </div>
+
+    <div class="copyright by Anjali">
+        © copyright by Anjali | All Right Reserved.</p>
+    </div>
+
+    <!-- Javascript -->
+
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+
+    <!--script>
+        var btn = document.getElementById('btn');
+        btn.addEventListener('click', function(e) {
+            e.preventDefault()
+            var name = document.getElementById('name').value;
+            var email = document.getElementById('email').value;
+            var phone = document.getElementById('phone').value;
+            var message = document.getElementById('message').value;
+
+            var body = 'name: ' + name + '<br/> email: ' + email + '<br/> phone:+ ' + phone + '<br/> message:+ ' + message;
+
+            Email.send({
+                Host: "smtp.gmail.com",
+                Username: "er.anjali.namdev@gmail.com",
+                Password: "jnzwanlohepguhyp",
+                To: 'er.anjali.namdev@gmail.com',
+                From: email,
+                Subject: "New Contact Form Enquiry",
+                Body: body
+            }).then(
+                message => alert("Message Sent Successfully")
+            );
+        })
+    </script-->
+
+    <script>
+        function sendEmail() {
+            Email.send({
+                Host: "smtp.gmail.com",
+                Username: "anjalinamdev695@gmail.com",
+                Password: "D530F8DC9F1156D7948EABA28ADAA2CB7B55",
+                To: "anjalinamdev695@gmail.com",
+                From: document.getElementById("email").value,
+                Subject: "New Contact Form Enquiry",
+                Body: 'name: ' + document.getElementById("name").value + '<br/> email: ' + document.getElementById("email").value + '<br/> phone:+ ' + document.getElementById("phone").value + '<br/> message:+ ' + document.getElementById("message").value
+            }).then(
+                message => alert("Message Sent Successfully")
+            );
+        }
+    </script>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
